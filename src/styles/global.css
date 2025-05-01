@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-    --font-sans: 'Inter', sans-serif;
-    --color-default: oklch(0.645 0.215 16.439);
+  --font-sans: 'Inter Variable', sans-serif;
+  --color-primary: oklch(0.645 0.215 16.439);
+
+  --animate-spin-slow: spin 4s linear infinite;
+  --animate-spin-slower: spin 6s linear infinite;
+  --animate-spin-reverse-slower: spin-reverse 6s linear infinite;
+}
+
+@keyframes spin-reverse {
+  to {
+    transform: rotate(-360deg);
+  }
 }

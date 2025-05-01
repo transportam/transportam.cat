@@ -1,0 +1,143 @@
+[
+  {
+    "duration": 40,
+    "reviews": [
+      {
+        "title": "Imprescindible",
+        "body": "Va perfecta. Indispensable si vols agafar els rodalies.",
+        "author": "Gocons",
+        "rating": 5
+      },
+      {
+        "title": "Simple y útil",
+        "body": "Contiene la información justa y necesaria para los usuarios. Está muy bien.",
+        "author": "VIRSF",
+        "rating": 5
+      },
+      {
+        "title": "Es genial!",
+        "body": "Puedes saber donde estan ahora mismo el tren que esperas. gracias!",
+        "author": "Norma",
+        "rating": 5
+      },
+      {
+        "title": "Ahora ya no voy corriendo",
+        "body": "Ahora miro a qué hora llega y cuando pone ahora, el tren está delante tuyo. Es una maravilla.",
+        "author": "Miriam Romero",
+        "rating": 5
+      },
+      {
+        "title": "Simple, rapida y eficiente",
+        "body": "Funciona. Brutal. Simple, rapida y eficiente.",
+        "author": "Mariano Ortiz",
+        "rating": 5
+      },
+      {
+        "title": "Informacio és molt precisa",
+        "body": "Em sembla genial! intuitiva i malgrat que ens indiqui la majoria de vegades que el tren va amb retard, l'informacio és molt precisa.",
+        "author": "Jordi Cardona",
+        "rating": 5
+      },
+      {
+        "title": "Més que excel·lent!",
+        "body": "Més que excel·lent! Per fi una aplicació que et diu l'hora exacta a la que passa cada tren.",
+        "author": "Francisco J. Burgos",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "duration": 50,
+    "reviews": [
+      {
+        "title": "Imprescindible",
+        "body": "Va perfecta. Indispensable si vols agafar els rodalies.",
+        "author": "Gocons",
+        "rating": 5
+      },
+      {
+        "title": "Simple y útil",
+        "body": "Contiene la información justa y necesaria para los usuarios. Está muy bien.",
+        "author": "VIRSF",
+        "rating": 5
+      },
+      {
+        "title": "Es genial!",
+        "body": "Puedes saber donde estan ahora mismo el tren que esperas. gracias!",
+        "author": "Norma",
+        "rating": 5
+      },
+      {
+        "title": "Ahora ya no voy corriendo",
+        "body": "Ahora miro a qué hora llega y cuando pone ahora, el tren está delante tuyo. Es una maravilla.",
+        "author": "Miriam Romero",
+        "rating": 5
+      },
+      {
+        "title": "Simple, rapida y eficiente",
+        "body": "Funciona. Brutal. Simple, rapida y eficiente.",
+        "author": "Mariano Ortiz",
+        "rating": 5
+      },
+      {
+        "title": "Informacio és molt precisa",
+        "body": "Em sembla genial! intuitiva i malgrat que ens indiqui la majoria de vegades que el tren va amb retard, l'informacio és molt precisa.",
+        "author": "Jordi Cardona",
+        "rating": 5
+      },
+      {
+        "title": "Més que excel·lent!",
+        "body": "Més que excel·lent! Per fi una aplicació que et diu l'hora exacta a la que passa cada tren.",
+        "author": "Francisco J. Burgos",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "duration": 35,
+    "reviews": [
+      {
+        "title": "Imprescindible",
+        "body": "Va perfecta. Indispensable si vols agafar els rodalies.",
+        "author": "Gocons",
+        "rating": 5
+      },
+      {
+        "title": "Simple y útil",
+        "body": "Contiene la información justa y necesaria para los usuarios. Está muy bien.",
+        "author": "VIRSF",
+        "rating": 5
+      },
+      {
+        "title": "Es genial!",
+        "body": "Puedes saber donde estan ahora mismo el tren que esperas. gracias!",
+        "author": "Norma",
+        "rating": 5
+      },
+      {
+        "title": "Ahora ya no voy corriendo",
+        "body": "Ahora miro a qué hora llega y cuando pone ahora, el tren está delante tuyo. Es una maravilla.",
+        "author": "Miriam Romero",
+        "rating": 5
+      },
+      {
+        "title": "Simple, rapida y eficiente",
+        "body": "Funciona. Brutal. Simple, rapida y eficiente.",
+        "author": "Mariano Ortiz",
+        "rating": 5
+      },
+      {
+        "title": "Informacio és molt precisa",
+        "body": "Em sembla genial! intuitiva i malgrat que ens indiqui la majoria de vegades que el tren va amb retard, l'informacio és molt precisa.",
+        "author": "Jordi Cardona",
+        "rating": 5
+      },
+      {
+        "title": "Més que excel·lent!",
+        "body": "Més que excel·lent! Per fi una aplicació que et diu l'hora exacta a la que passa cada tren.",
+        "author": "Francisco J. Burgos",
+        "rating": 5
+      }
+    ]
+  }
+]

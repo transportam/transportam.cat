@@ -1,0 +1,63 @@
+---
+import Container from "./Container.astro";
+import BackgroundIllustration from "./BackgroundIllustration.astro";
+import PhoneFrame from "./PhoneFrame.vue";
+
+const operators = [
+  { img: '/rodalies.svg', label: 'Rodalies' },
+  { img: '/renfe.svg', label: 'Renfe' },
+  { img: '/fgc.svg', label: 'FGC' },
+  { img: '/tram.svg', label: 'Tram' },
+  { img: '/tmb.svg', label: 'TMB' },
+  { img: '/amb.svg', label: 'AMB' },
+  { img: '/atm-bcn.svg', label: 'ATM BCN' },
+];
+---
+
+<div class="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
+  <Container>
+    <div class="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
+      <div class="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
+        <h1 class="text-4xl font-medium tracking-tight text-neutral-900">
+          El transport a temps real.
+        </h1>
+        <p class="mt-6 text-lg text-neutral-600">
+          Consulta l’estat del transport públic a temps real,
+          verifica els horaris, incidències i estat del servei,
+          ideal per fer els teus trajectes de forma ràpida i eficient sense sorpreses.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-x-6 gap-y-4">
+          <a href="https://play.google.com/store/apps/details?id=cat.transportam.app" target="_blank">
+            <img src="/google-play.svg" class="h-10" alt="Google Play" />
+          </a>
+          <a href="https://apps.apple.com/es/app/transportam/id6741533340" target="_blank">
+            <img src="/app-store.svg" class="h-10" alt="Apple App Store" />
+          </a>
+        </div>
+      </div>
+      <div class="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
+        <BackgroundIllustration class="absolute top-4 left-1/2 h-[1026px] w-[1026px] -translate-x-1/3 [mask-image:linear-gradient(to_bottom,white_20%,transparent_75%)] stroke-neutral-300/70 sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0" />
+        <div class="-mx-4 h-[448px] [mask-image:linear-gradient(to_bottom,white_60%,transparent)] px-9 sm:mx-0 lg:absolute lg:-inset-x-10 lg:-top-10 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
+          <PhoneFrame class="mx-auto max-w-[366px]">
+            <img alt="Sortides" src="/departures.png" />
+          </PhoneFrame>
+        </div>
+      </div>
+      <div class="relative lg:col-span-7 xl:col-span-6">
+        <p class="text-center text-sm font-semibold text-neutral-900 lg:text-left">
+          Entitats i operadors
+        </p>
+        <ul
+          role="list"
+          class="mx-auto mt-6 flex max-w-xl flex-wrap justify-center gap-x-8 gap-y-6 lg:mx-0 lg:justify-start"
+        >
+          {operators.map(({ img, label }) => (
+            <li class="flex">
+              <img src={img} alt={label} class="w-22" />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </Container>
+</div>
