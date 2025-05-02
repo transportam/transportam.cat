@@ -1,7 +1,3 @@
-<script setup lang="js">
-import PhoneFrame from "../vectors/phone-frame.svg?component";
-</script>
-
 <template>
   <div class="relative aspect-366/729">
     <div class="absolute inset-y-[calc(1/729*100%)] left-[calc(7/729*100%)] right-[calc(5/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)] shadow-2xl"></div>
@@ -17,6 +13,6 @@ import PhoneFrame from "../vectors/phone-frame.svg?component";
       />
       <rect x="154" y="29" width="56" height="5" rx="2.5" fill="#D4D4D4"></rect>
     </svg>
-    <PhoneFrame class="pointer-events-none absolute inset-0 h-full w-full" />
+    <img src="/phone-frame.svg" alt="Phone frame" class="pointer-events-none absolute inset-0 h-full w-full" />
   </div>
 </template>

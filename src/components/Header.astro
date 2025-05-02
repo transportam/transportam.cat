@@ -16,7 +16,7 @@ import NavLinks from "./NavLinks.astro";
         </div>
       </div>
       <div class="flex items-center gap-6">
-        <HeaderMobile client:load />
+        <HeaderMobile client:only="vue" />
         <div class="flex items-center gap-6 max-lg:hidden">
           <a class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold transition-colors bg-neutral-800 text-white hover:bg-neutral-900 active:bg-neutral-800 active:text-white/80" href="/download">Descarregar</a>
         </div>

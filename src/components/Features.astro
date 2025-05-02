@@ -20,9 +20,9 @@ import FeaturesDesktop from "./FeaturesDesktop.vue";
     </div>
   </Container>
   <div class="mt-16 md:hidden">
-    <FeaturesMobile client:load />
+    <FeaturesMobile client:only="vue" />
   </div>
   <Container class="hidden md:mt-20 md:block">
-    <FeaturesDesktop client:load />
+    <FeaturesDesktop client:only="vue" />
   </Container>
 </section>
