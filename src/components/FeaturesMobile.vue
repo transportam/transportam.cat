@@ -21,10 +21,10 @@ const carouselRef = ref<CarouselExposed>()
           <div class="absolute inset-x-0 bottom-0 bg-neutral-800/95 p-6 backdrop-blur-sm sm:p-10">
             <Icon :icon="feature.icon" class="h-8 w-8 fill-neutral-300" />
             <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">
-              {{ feature.title }}}
+              {{ feature.title }}
             </h3>
             <p class="mt-2 text-sm text-neutral-400">
-              {{ feature.description }}}
+              {{ feature.description }}
             </p>
           </div>
         </div>
