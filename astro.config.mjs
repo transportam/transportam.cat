@@ -6,9 +6,13 @@ import sitemap from '@astrojs/sitemap';
 import partytown from '@astrojs/partytown';
 import vue from '@astrojs/vue';
 import sentry from "@sentry/astro";
+import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'server',
+  adapter: vercel(),
+
   vite: {
     plugins: [
       svgLoader(),
