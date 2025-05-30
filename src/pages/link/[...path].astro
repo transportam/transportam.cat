@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import Container from "../../components/Container.astro";
+import Button from "../../components/Button.astro";
 
 export const prerender = false;
 
@@ -19,7 +20,9 @@ const {deeplink = `transportam://${path}`} = Astro.props;
     <h1 class="text-xl font-semibold">S’està obrint l’app Transportam...</h1>
     <p class="text-gray-600">Si no s’obre automàticament, potser no tens l’app instal·lada.</p>
 
-    <a class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold transition-colors bg-neutral-800 text-white hover:bg-neutral-900 active:bg-neutral-800 active:text-white/80" href="/download">Descarregar</a>
+    <Button href="/download" variant="solid">
+      Descarregar
+    </Button>
   </Container>
 </Layout>
 
