@@ -1,8 +1,8 @@
 <script setup>
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import navigation from '../data/navigation.json'
-import ChevronUp from "../assets/vectors/chevron-up.svg?component";
-import MenuBars from "../assets/vectors/menu-bars.svg?component";
+import ChevronUp from "../assets/svg/chevron-up.svg?component";
+import MenuBars from "../assets/svg/menu-bars.svg?component";
 </script>
 
 <template>

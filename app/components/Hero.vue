@@ -1,17 +1,28 @@
 <script setup lang="ts">
+import GooglePlayLogo from "~/assets/svg/google-play.svg?component"
+import AppStoreLogo from "~/assets/svg/app-store.svg?component"
+import RodaliesLogo from "~/assets/svg/rodalies.svg?component"
+import RenfeLogo from "~/assets/svg/renfe.svg?component"
+import FgcLogo from "~/assets/svg/fgc.svg?component"
+import TramLogo from "~/assets/svg/tram.svg?component"
+import TmbLogo from "~/assets/svg/tmb.svg?component"
+import AmbLogo from "~/assets/svg/amb.svg?component"
+import AtmBcnLogo from "~/assets/svg/atm-bcn.svg?component"
+import Award4DLogo from "~/assets/svg/4d_award.svg?component"
+
 const operators = [
-  { img: '/rodalies.svg', label: 'Rodalies' },
-  { img: '/renfe.svg', label: 'Renfe' },
-  { img: '/fgc.svg', label: 'FGC' },
-  { img: '/tram.svg', label: 'Tram' },
-  { img: '/tmb.svg', label: 'TMB' },
-  { img: '/amb.svg', label: 'AMB' },
-  { img: '/atm-bcn.svg', label: 'ATM BCN' }
+  { component: RodaliesLogo, label: 'Rodalies' },
+  { component: RenfeLogo, label: 'Renfe' },
+  { component: FgcLogo, label: 'FGC' },
+  { component: TramLogo, label: 'Tram' },
+  { component: TmbLogo, label: 'TMB' },
+  { component: AmbLogo, label: 'AMB' },
+  { component: AtmBcnLogo, label: 'ATM BCN' }
 ]
 
 const awards = [
   {
-    img: '/4d_award.svg',
+    component: Award4DLogo,
     label: '4D',
     href: 'https://4d.cat/convocatoria/#finalistes'
   }
@@ -37,13 +48,13 @@ const awards = [
               href="https://play.google.com/store/apps/details?id=cat.transportam.app"
               target="_blank"
             >
-              <img src="/google-play.svg" class="h-10" alt="Google Play" />
+              <GooglePlayLogo class="h-10" />
             </a>
             <a
               href="https://apps.apple.com/es/app/transportam/id6741533340"
               target="_blank"
             >
-              <img src="/app-store.svg" class="h-10" alt="Apple App Store" />
+              <AppStoreLogo class="h-10" />
             </a>
           </div>
         </div>
@@ -71,7 +82,7 @@ const awards = [
                 :key="operator.label"
                 class="flex"
               >
-                <img :src="operator.img" :alt="operator.label" class="w-22" />
+                <component :is="operator.component" class="w-22" />
               </li>
             </ul>
           </div>
@@ -90,7 +101,7 @@ const awards = [
                 class="flex"
               >
                 <a :href="award.href" target="_blank">
-                  <img :src="award.img" :alt="award.label" class="h-26" />
+                  <component :is="award.component" class="h-26" />
                 </a>
               </li>
             </ul>

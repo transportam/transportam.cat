@@ -35,7 +35,7 @@ import {ref} from "vue";
 import features from "../data/features.json"
 import Icon from "./Icon.vue";
 import PhoneFrame from "./PhoneFrame.vue";
-import CircleBackground from "../assets/vectors/circle-background.svg";
+import CircleBackground from "../assets/svg/circle-background.svg";
 
 const selected = ref(0)
 </script>

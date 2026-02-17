@@ -1,5 +1,6 @@
 <script setup lang="ts">
-
+import GooglePlayLogo from "~/assets/svg/google-play.svg?component"
+import AppStoreLogo from "~/assets/svg/app-store.svg?component"
 </script>
 
 <template>
@@ -13,10 +14,10 @@
       </div>
       <div class="m-auto flex flex-col space-y-4 lg:flex-row lg:space-y-0 lg:space-x-8">
         <a href="https://play.google.com/store/apps/details?id=cat.transportam.app" target="_blank">
-          <img src="/google-play.svg" class="h-12" alt="Google Play" />
+          <GooglePlayLogo class="h-12" />
         </a>
         <a href="https://apps.apple.com/es/app/transportam/id6741533340" target="_blank">
-          <img src="/app-store.svg" class="h-12" alt="Apple App Store" />
+          <AppStoreLogo class="h-12" />
         </a>
       </div>
     </div>
